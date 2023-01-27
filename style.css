@@ -1,0 +1,24 @@
+@media only screen and (max-width:834px) {
+    body {
+        background-color: red;
+
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .header-icon {
+        display: block;
+    }
+
+    header {
+        width: 100%;
+    }
+}
+
+/* @media only screen and (max-width:768px){
+    .header nav {
+        display: none;
+    }
+} */

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cw-btn ul {
+    list-style: none;
+}
+
+.cw-btn ul li {
+    display: flex;
+    align-items: center;
+    padding: 21px 20px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(162, 89, 255, 1);
+}
+
+.cw-btn ul li h5 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Work Sans";
+    color: white;
+    margin-left: 20px;
+}

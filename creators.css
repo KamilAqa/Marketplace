@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.creators .boxx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3B3B3B;
+    padding: 12px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.creators-txt h2 {
+    font-size: 51px;
+    font-weight: 600;
+    font-family: "Work Sans";
+    color: white;
+    margin-bottom: 10px;
+}
+
+.boxx-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxx .c-img,
+.c-title {
+    display: flex;
+    align-items: center;
+}
+
+.boxx .c-img span {
+    background-color: #2B2B2B;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+
+.boxx .c-img img {
+    padding: 0 20px;
+}
+
+.boxx .c-img h3 {
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.boxx .c-number,
+.c-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxx .c-number p {
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.boxx-title .c-txt p {
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    color: #858584;
+    margin-left: 130px;
+}
+
+.boxx-title .c-title p {
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    color: #858584;
+    margin-right: 42px;
+}
+
+.creators .boxx-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #3B3B3B;
+    padding: 12px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.boxx .c-number:last-child {
+    margin-left: 100px;
+}
+
+.boxx .c-number a {
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    color: #00AC4F;
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+.creators-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #858584;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 14px 54px;
+}

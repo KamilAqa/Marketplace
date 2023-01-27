@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.browse {
+    background-color: #3B3B3B;
+}
+.browse-txt {
+    padding: 80px 241px;
+}
+.browse-txt h2 {
+    font-size: 51px;
+    font-weight: 600;
+    font-family: "Work Sans";
+    color: white;
+}
+
+.browse-txt p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: white;
+}
+
+.browse-icon {
+    border: 1px solid #858584;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 90px;
+}
+.browse-icon :focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.browse-icon input {
+    border: none;
+    background-color: #2B2B2B
+}
+
+.browse-icon i {
+    color: white;
+}
+
+.browse-txt hr {
+    color: #858584;
+    margin-bottom: 25px;
+}
+
+.ntf-collect {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.ntf-collect :first-child {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+}
+
+.ntf-collect :last-child {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 22px;
+    color: #858584;
+}
+
+.ntf-collect :first-child span {
+    font-family: "Space Mono";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid #858584;
+    background-color: #858584;
+}
+
+.ntf-collect :last-child span {
+    font-family: "Space Mono";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid #858584;
+    background-color: #858584;
+}
+
+.browse-card {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    gap: 30px;
+    width: 1050px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.browse-img-txt {
+    /* background-color: #3B3B3B; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-family: "Work Sans";
+    padding: 22px 20px;
+    margin-top: -4px;
+}
+.browse h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.browse .cp {
+    margin-right: 12px;
+}
+
+.browse p {
+    font-family: "Space Mono";
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.browse-img {
+    border-radius: 20px;
+    background-color: #2B2B2B;
+    width: 330px;
+    margin-right: 30px;
+}
+
+.browse-img .browse-imgs {
+    width: 100%;
+}
+.browse-txt h3 {
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.browse-txt p {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.browse .price {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
