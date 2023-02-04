@@ -1,0 +1,138 @@
+@media only screen and (max-width:834px) {
+
+
+    header nav {
+        display: none;
+    }
+
+    header .header-icon {
+        display: block;
+    }
+
+    header {
+        width: 834px;
+        margin: 0 72px;
+        justify-content: space-between;
+    }
+
+    .home {
+        width: auto;
+        margin: 0 72px;
+    }
+    .c-box {
+        /* position: relative; */
+        padding: 20px;
+        width: 240px;
+        height: 238px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+    }
+    .c-box .c-nmbr {
+        display: flex;
+        align-items: center;
+    }
+    .creators-box img {
+        display: inline;
+        /* position: absolute;  */
+        left: 25%;
+    }
+    
+    .c-box-title {
+        /* position: absolute; */
+        top: 67%;
+        left: 15%;
+    }
+
+    .home-txt {
+        margin-right: 30px;
+        margin-bottom: 80px;
+    }
+
+    /* SECTION2 */
+    .card {
+        width: 834px;
+    }
+
+    .card .box:nth-child(3) {
+        display: none;
+    }
+
+    /* SECTION3 */
+    .creators-box .c-box:nth-child(7),
+    .creators-box .c-box:nth-child(8),
+    .creators-box .c-box:nth-child(9),
+    .creators-box .c-box:nth-child(10),
+    .creators-box .c-box:nth-child(11),
+    .creators-box .c-box:nth-child(12) {
+        display: none;
+    }
+
+    /* .c-box {
+        width: 330px;
+        height: 108px;
+        display: flex;
+    }
+.c-box img {
+    width: 77px;
+} */
+    .creators-box {
+        grid-template-columns: repeat(2, auto);
+    }
+    .creators-title {
+        width: 691px;
+    }
+    .creators-txt {
+        width: 343px;
+    }
+    .creators {
+        margin: 0 72px;
+    }
+    /* SECTION4 */
+    .categories {
+        width: 834px;
+    }
+    .categories-box {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(4, auto);
+    }
+    .bc-box {
+        margin-left: 30px;
+    }
+    .discover-title {
+        width: 834px;
+    }
+    
+    /* SECTION5 */
+.discover-card .discover-img:nth-child(3):nth-child(3) {
+    display: none;
+}
+/* SECTION6 */
+.magic-txt {
+    width: 834px;
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* SECTION7 */
+.work {
+    width: 834px;
+}
+.work-card {
+    width: 210px;
+    height: 320px;
+}
+.work-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 210px);
+    column-gap: 30px;
+}
+} 
+/* @media only screen and (max-width:768px){
+    .header nav {
+        display: none;
+    }
+}

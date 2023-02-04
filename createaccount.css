@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    margin: 37px auto;
+    width: 1280px;
+}
 .create-a {
     display: flex;
     /* margin: 0 auto; */

@@ -19,7 +19,7 @@
     font-weight: 600;
     font-family: "Work Sans";
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .boxx-title {
@@ -58,11 +58,19 @@
     justify-content: space-between;
 }
 
+.boxx .c-numberr {
+    display: flex;
+}
+
+/* .boxx .c-numberr p {
+    margin-left: 10px;
+} */
 .boxx .c-number p {
     font-family: "Space Mono";
     font-size: 16px;
     font-weight: 400;
     color: white;
+    margin-left: 35px;
 }
 
 .boxx-title .c-txt p {

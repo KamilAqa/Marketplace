@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header {
+    margin: 37px auto;
+    width: 1280px;
+}
+
 .cw-btn ul {
     list-style: none;
 }

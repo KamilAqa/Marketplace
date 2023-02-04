@@ -29,9 +29,10 @@ header {
     align-items: center;
 }
 
-header h1 {
-    font-family: "Work Sans";
+header .logo a {
+    font-family: "Space";
     color: white;
+    text-decoration: none;
     font-size: 20px;
     /* height: 19px; */
     padding-left: 15px;
@@ -40,15 +41,15 @@ header h1 {
 
 @keyframes color {
     0% {
-        color: #2196f3;
+        color: #058eff;
     }
 
     50% {
-        color: #255784;
+        color: #aad0f2;
     }
 
     100% {
-        color: blue
+        color: rgb(118, 118, 208)
     }
 }
 
@@ -56,7 +57,7 @@ header h1 {
     display: none;
 } */
 header .header-icon {
-    display: block;
+    display: none;
 }
 
 header nav ul {
@@ -112,7 +113,6 @@ header nav ul li a {
     font-family: "Work Sans";
     font-weight: 400;
     font-size: 22px;
-    line-height: 160%;
     color: white;
     margin-bottom: 30px;
     text-transform: capitalize;
@@ -327,7 +327,9 @@ header nav ul li a {
     margin-bottom: 80px;
 }
 
-
+/* .creators-box .c-box {
+    display: grid;
+} */
 .creators-btn i {
     color: #A259FF;
     margin-right: 21px;
@@ -349,13 +351,25 @@ header nav ul li a {
     background-color: #3B3B3B;
 }
 
+.c-box:hover {
+    box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.1),
+        5px 5px 5px rgba(0, 0, 0, 0.2),
+        15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.c-box .c-nmbr {
+    display: flex;
+    align-items: center;
+}
+
 .creators-box img {
-    padding: 20px auto;
+    display: inline;
     position: absolute;
     left: 25%;
 }
 
-.c-box i {
+.c-box i,
+.cb-n {
     font-family: "Space Mono";
     position: absolute;
     color: #858584;
@@ -425,6 +439,7 @@ header nav ul li a {
 
 .bc-box .box-img {
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .bc-box img:first-child {
@@ -465,7 +480,7 @@ header nav ul li a {
     margin: 80px auto;
 }
 
-.discver-card {
+.discover-card {
     display: flex;
 }
 
@@ -649,6 +664,7 @@ header nav ul li a {
 
 .magic .clock-number {
     display: flex;
+    align-items: center;
     color: white;
 }
 
@@ -672,7 +688,9 @@ span {
     /* height: 100vh; */
     margin: 80px auto;
 }
-
+.work-title {
+    width: 1050px;
+}
 .work h3 {
     color: white;
     font-family: "Work Sans";
@@ -763,6 +781,7 @@ span {
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 40px;
+    text-transform: capitalize;
 }
 
 .digest-txt input {
@@ -898,7 +917,7 @@ footer ul li {
 }
 
 footer .c {
-    margin-top: 20px;
+    padding: 20px;
     margin-left: 231px;
 }
 

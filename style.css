@@ -3,14 +3,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 
-
-body {
-    width: 834px;
-}
-
     header {
         margin: 20px 72px 80px;
-        width: 834px;
+        width: 690px;
     }
 
     header nav {
@@ -24,7 +19,7 @@ body {
 
 
     .home {
-    width: 834px;
+        width: 690px;
         margin: 0 72px;
     }
 
@@ -64,7 +59,7 @@ body {
     /* SECTION2 */
 
     .collection {
-        width: 834px;
+        width: 690px;
         margin: 0 72px;
     }
 
@@ -103,11 +98,12 @@ body {
 
     /* SECTION3 */
     .creators {
-        width: 834px;
+        width: 690px;
     }
 
     .creators-title {
-        margin: 0 72px;
+        width: 690px;
+        /* margin: 0 72px; */
     }
 
     .creators-txt h3 {
@@ -121,7 +117,7 @@ body {
 
     .creators-box {
         grid-template-columns: repeat(2, 330px);
-        margin: 0 72px;
+        /* margin: 0 72px; */
     }
 
     .creators-box .c-box:nth-child(7),
@@ -160,7 +156,7 @@ body {
 
     /* SECTION4 */
     .categories {
-        width: 834px;
+        width: 690px;
         margin: 0 72px;
     }
 
@@ -204,8 +200,12 @@ body {
 
     /* SECTION5 */
     .discover {
-        width: 834px;
+        width: 690px;
         margin: 80px 72px;
+    }
+
+    .discover-img {
+        width: 330px;
     }
 
     .discover-card .discover-img:nth-child(3) {
@@ -213,7 +213,7 @@ body {
     }
 
     .discover-title {
-        width: 566px;
+        width: 690px;
     }
 
     .discover-txt h3 {
@@ -236,8 +236,12 @@ body {
 
     /* SECTION7 */
     .work {
-        width: 834px;
+        width: 690px;
         margin: 80px 72px;
+    }
+
+    .work-title {
+        width: 685px;
     }
 
     .work h3 {
@@ -279,10 +283,16 @@ body {
         justify-content: space-around;
         padding: 30px;
     }
+
+    .astronaut img {
+        width: 300px;
+        height: 280px;
+    }
+
     .digest {
         /* height: 100vh; */
-        width: 834px;
-        margin: 80px 72px;
+        width: 690px;
+        /* margin: 80px 72px; */
     }
 
     .digest h3 {
@@ -320,15 +330,160 @@ body {
         justify-content: space-evenly;
         padding: 35px 115px;
     }
+
     .line {
         border: 1px solid #fff;
         width: 69%;
         margin-left: 114px;
         /* margin-top: -30px; */
     }
-    /* @media only screen and (max-width:768px){
-    .header nav {
-        display: none;
+
+
+
+
+
+
+
+    /* CREATEACCOUNT */
+    .create-a .phalecolder {
+        width: 397px;
     }
+
+    .create-a-txt h2 {
+        font-size: 38px;
+    }
+
+    .create-a-txt p {
+        font-size: 16px;
+    }
+
+    .btn-inp {
+        width: 325px;
+    }
+
+
+
+/* CONNETWALLET */
+.cw-btn ul li {
+    padding: 14px 20px;
+}
+
+/* BROWSE */
+.browse-card .browse-img:nth-child(9),
+.browse-card .browse-img:nth-child(10),
+.browse-card .browse-img:nth-child(11),
+.browse-card .browse-img:nth-child(12) {
+    display: none;
+}
+.browse-card {
+    width: 690px;
+    display: grid;
+    grid-template-columns: repeat(2, 325px);
+}
+.browse-img {
+    width: 325px;
+}
+.browse-txt h2 {
+    font-size: 38px;
+}
+.browse-txt p {
+    font-size: 16px;
+}
+.browse-txt {
+    padding: 0;
+    margin: 0 77px;
+}
+
+/* CREATORS */
+/* .creators-txt h2 {
+    font-size: 38px;
+}
+.creators-txt p {
+    font-size: 16px;
+}
+.creators-time {
+    font-size: 16px;
+}
+.creators .boxx {
+    width: 100%;
+}
+.boxx .c-img img {
+    width: 24px;
 } */
+.creators .boxx {
+    width: 690px;
+    padding: 18px 26px;
+}
+
+.creators-txt h2 {
+    font-size: 38px;
+}
+
+.boxx .c-img span {
+    padding: 0 8px 2px 6px;
+}
+
+.boxx .c-img img {
+    padding: 0 12px;
+}
+
+.boxx .c-img h3 {
+    font-size: 16px;
+}
+
+.boxx .c-number,
+.c-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxx .c-numberr {
+    display: flex;
+}
+
+/* .boxx .c-numberr p {
+    margin-left: 10px;
+} */
+.boxx .c-number p {
+    font-size: 16px;
+}
+.c-numberr p:first-child {
+    display: none;
+}
+.boxx .c-number a {
+    margin-right: 60px;
+}
+.boxx-title .c-txt p {
+    margin-right: -46px;
+    font-size: 16px;
+}
+.boxx-title .c-txt p:last-child {
+    display: none;
+}
+.boxx-title .c-title p {
+    font-size: 16px;
+}
+
+.creators .boxx-title {
+width: 690px;
+}
+
+.boxx .c-number:last-child {
+    margin-left: 0;
+}
+
+/* .boxx .c-number a {
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    color: #00AC4F;
+    text-decoration: none;
+    margin-right: 200px;
+} */
+
+.creators-time {
+width: 690px;
+padding: 19px;
+}
 }

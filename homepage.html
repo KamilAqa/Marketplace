@@ -9,29 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="homepage.css">
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="ntf-icon">
             <i class="fa-solid fa-store"></i>
-            <h1>NFT Marketplace</h1>
+            <div class="logo">
+
+                <a href="homepage.html">NFT Marketplace</a>
+            </div>
         </div>
-        
+
         <nav>
 
             <ul>
-                <li><a href="">Marketplace</a></li>
-                <li><a href="">Rankings</a></li>
-                <li><a href="">Connect a wallet</a></li>
+                <li><a href="browse.html">Marketplace</a></li>
+                <li><a href="creators.html">Rankings</a></li>
+                <li><a href="connectwallet.html">Connect a wallet</a></li>
                 <a class="btn" href="createaccount.html"><i class="fa-solid fa-user"></i>Sign Up
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
             </ul>
         </nav>
         <i class="fa-sharp fa-solid fa-bars header-icon"></i>
@@ -225,7 +228,7 @@
             </div>
             <!-- BOX10 -->
             <div class="c-box">
-                <i class="fa-solid fa-10"></i>
+                <span class="cb-n">10</span>
                 <img src="./IMAGE/Animakid.png" alt="">
                 <div class="c-box-title">
                     <h5>Animakid</h5>
@@ -235,7 +238,7 @@
             <!-- BOX11 -->
             <div class="c-box">
                 <!-- <i class="fa-solid fa-11"></i> -->
-                <span>11</span>
+                <span class="cb-n">11</span>
                 <img src="./IMAGE/Dotgu.png" alt="">
                 <div class="c-box-title">
                     <h5>Dotgu</h5>
@@ -244,7 +247,7 @@
             </div>
             <!-- BOX12 -->
             <div class="c-box">
-                <i class="fa-solid fa-12"></i>
+                <span class="cb-n">12</span>
                 <img src="./IMAGE/Ghiblier.png" alt="">
                 <div class="c-box-title">
                     <h5>Ghiblier</h5>
@@ -260,9 +263,9 @@
         <h3>Browse Categories</h3>
         <div class="categories-box">
             <div class="bc-box">
-            <div class="box-img">
-                <img src="./IMAGE/art-img.png" alt="">
-            </div>
+                <div class="box-img">
+                    <img src="./IMAGE/art-img.png" alt="">
+                </div>
                 <i class="fa-solid fa-paintbrush"></i>
                 <h2>Art</h2>
 
@@ -345,7 +348,7 @@
             </div>
             <a class="discover-btn" href="creators.html"><i class="fa-solid fa-eye"></i>See All</a>
         </div>
-        <div class="discver-card">
+        <div class="discover-card">
             <div class="discover-img">
                 <img class="discover-imgs" src="./IMAGE/Distant Galaxy.png" alt="">
                 <div class="discover-img-txt">
@@ -410,22 +413,22 @@
             <div class="magic-title">
                 <p><img src="./IMAGE/Magic-Shroomie.png" alt=""> Shroomie</p>
                 <h2>Magic Mushrooms</h2>
-                <a class="magic-btn" href=""><i class="fa-solid fa-eye"></i>See All</a>
+                <a class="magic-btn" href=""><i class="fa-solid fa-eye"></i>See NFT</a>
             </div>
             <div class="clock">
                 <p>Auction ends in:</p>
                 <div class="clock-number">
 
                     <div>
-                        <h3>59 </h3>
+                        <h3>59 <span class="point">:</span> </h3>
                         <span>Hours</span>
                     </div>
                     <div>
-                        <h3>: 59</h3>
+                        <h3> 59</h3>
                         <span>Minutes</span>
                     </div>
                     <div>
-                        <h3>: 59</h3>
+                        <h3><span class="point">:</span> 59</h3>
                         <span>Seconds</span>
                     </div>
                 </div>
@@ -437,8 +440,10 @@
 
     <!-- SECTION7 -->
     <section class="work">
-        <h3>How it works</h3>
-        <p>Find out how to get started</p>
+        <div class="work-title">
+            <h3>How it works</h3>
+            <p>Find out how to get started</p>
+        </div>
         <div class="work-cards">
             <div class="work-card">
                 <img src="./IMAGE/hw-Setup Your wallet.png" alt="">
@@ -479,7 +484,7 @@
             <img src="./IMAGE/Astronaut.png" alt="">
             <div class="digest-txt">
                 <h3>Join Our Weekly <br /> Digest</h3>
-                <p>Get Exclusive Promotions & Updates <br /> Straight To Your Inbox.</p>
+                <p>Get exclusive promotions & updates <br /> straight to your inbox.</p>
                 <input type="email" id="email" name="email" placeholder="Enter your email here ">
                 <a class="digest-btn" href=""><i class="fa-solid fa-envelope"></i>Subscribe</a>
             </div>
